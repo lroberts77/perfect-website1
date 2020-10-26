@@ -1,6 +1,7 @@
 import React, { useState} from 'react'
 import { Link } from "react-router-dom";
 import { Button } from './button';
+import "./Navbar.css";
 
 function Navbar() {
     const [click, setClick] = useState(false)
@@ -20,7 +21,7 @@ function Navbar() {
     return (
         <>
             <nav className="navbar">
-                <div className="navbar-contents">
+                <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
                         PERFECT <i class="fas fa-meteor"></i>
                     </Link>

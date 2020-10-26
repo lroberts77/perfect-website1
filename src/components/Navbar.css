@@ -100,5 +100,25 @@
         z-index: 1;
       }
 
+      .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+      }
+    
+      .nav-links:hover {
+        background-color: #fff;
+        color: #242424;
+        border-radius: 0;
+      }
+    
+      .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%, 50%);
+      }
+
   }
   

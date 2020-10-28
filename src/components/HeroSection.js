@@ -4,7 +4,7 @@ import { Button } from './Button';
 import './HeroSection.css';
 import video from '../assets/video.mp4'
 
-function HeroSection() {
+export default function HeroSection() {
     return (
       <div className='hero-container'>
         <video autoPlay loop muted>
@@ -30,4 +30,3 @@ function HeroSection() {
     );
 }
 
-export default HeroSection;

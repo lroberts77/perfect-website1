@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from './Button';
 import "./Navbar.css";
 
-function Navbar() {
+export default function Navbar() {
     const [click, setClick] = useState(false)
     const [button, setButton] = useState(true)
     const closeMobileMenu = () => setClick(false)
@@ -62,6 +62,5 @@ function Navbar() {
     )
 }
 
-export default Navbar
                             
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import CardItem from './CardItem'
+import  "./Cards.css";
 
 
 export default function Cards() {
@@ -9,7 +10,11 @@ export default function Cards() {
             <div className="cards--container">
                 <div className="cards--wrapper">
                     <ul className="cards--items">
-                        <CardItem />
+                        <CardItem src="img" 
+                        text="Explore" 
+                        label="Exploration" 
+                        path="/services"
+                        />
                     </ul>
                 </div>
             </div>

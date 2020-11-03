@@ -15,11 +15,10 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize}) => {
             <button
                 className={`btn ${checkButtonStyle} ${checkButtonsize}`}
                 onClick={onClick}
-                type={type}
-            >
-
+                type={type}>
                 {children}
             </button>
         </Link>
     )
 }
+

@@ -7,9 +7,7 @@ import video from '../assets/video.mp4'
 export default function HeroSection() {
     return (
       <div className='hero-container'>
-        <video autoPlay loop muted>
-        <source src={video} type="video/mp4"/>
-        </video>
+        <video autoPlay loop muted src={video} type="video/mp4"/>
         <h1>HELLO</h1>
         <p>HI</p>
         <div className='hero-btns'>

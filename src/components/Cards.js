@@ -1,7 +1,7 @@
 import React from 'react'
 import CardItem from './CardItem'
 import  "./Cards.css";
-
+import img from '../assets/img.jpg'
 
 export default function Cards() {
     return (
@@ -10,7 +10,7 @@ export default function Cards() {
             <div className="cards--container">
                 <div className="cards--wrapper">
                     <ul className="cards--items">
-                        <CardItem src="img" 
+                        <CardItem src={img} 
                         text="Explore" 
                         label="Exploration" 
                         path="/services"

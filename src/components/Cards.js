@@ -4,6 +4,7 @@ import  "./Cards.css";
 import see from '../assets/see.jpg'
 import eclipse from '../assets/eclipse.jpg'
 import sky from '../assets/sky.jpg'
+import rose from '../assets/rose.jpg'
 
 export default function Cards() {
     return (
@@ -23,9 +24,14 @@ export default function Cards() {
                         path="/services"
                         />
                         <CardItem src={sky} 
-                        text="summary or explanation for card 2" 
-                        label="CARD 2" 
+                        text="summary or explanation for card 3" 
+                        label="CARD 3" 
                         path="/products"
+                        />
+                        <CardItem src={rose} 
+                        text="summary or explanation for card 4" 
+                        label="CARD 4" 
+                        path="/sign-up"
                         />
                     </ul>
                 </div>

@@ -59,7 +59,7 @@ export default function Footer() {
                 <div className="social-media-wrap">
                     <div className="footer-logo">
                         <Link to="/" className="social-logo">
-                            PRFCT <i className="fab fa-typo3" />
+                            PRFCT <i className="fas fa-meteor" />
                         </Link>
                     </div>
                     <small className="website-rights">PRFCT © 2020</small>

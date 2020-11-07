@@ -52,6 +52,13 @@ export default function Footer() {
                         >
                             <i className="fab fa-instagram"></i>
                         </Link>
+                        <Link className="social-icon-link youtube"
+                        to="/"
+                        target="_blank"
+                        aria-label="Youtube"
+                        >
+                            <i className="fab fa-youtube"></i>
+                        </Link>
                     </div>
                 </div>
             </section>

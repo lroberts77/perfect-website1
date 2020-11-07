@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './Button'
 import "./Footer.css"
+import { Link } from "react-router-dom"
 
 export default function Footer() {
     return (
@@ -17,6 +18,18 @@ export default function Footer() {
                     <Button buttonStyle="btn--outline">SEND</Button>
                 </form>
             </section>
+            <div className="footer-links">
+                <div className="footer-link-wrapper">
+                    <div className="footer-links-items">
+                        <h2>About us</h2>
+                        <Link to="/">test1</Link>
+                        <Link to="/">test2</Link>
+                        <Link to="/">test3</Link>
+                        <Link to="/">test4</Link>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }

@@ -139,4 +139,16 @@
     .footer-input {
         width: 100px;
     }
+
+    .btn {
+        width: 100%;
+    }
+
+    .footer-link-wrapper {
+        flex-direction: column;
+    }
+
+    .social-media-wrap {
+        flex-direction: column;
+    }    
 }

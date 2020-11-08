@@ -15,7 +15,7 @@ export default function Footer() {
                 </p>
                 <div className="input-areas">
                 <form>
-                    <input type="email" name="email" placeholder="Your Eamil" className="footer-input" />
+                    <input type="email" name="email" placeholder="Your Email" className="footer-input" />
                     <Button buttonStyle="btn--outline">SEND</Button>
                 </form>
                 </div>

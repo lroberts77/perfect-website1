@@ -8,3 +8,5 @@
 * [Npm Testing](#Npmtest)
 * [Usage](#Usage)
 * [Improvemets](#Improvements)
+
+## <a name="Project">Project Direction</a>

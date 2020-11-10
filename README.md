@@ -13,3 +13,5 @@
 ## <a name="Install">Installation</a>
 
 ## <a name="Usage">Usage</a>
+
+## <a name="Improvements">Improvements</a>

@@ -23,5 +23,11 @@ $ npm install
 ```
 
 ## <a name="Usage">Usage</a>
+* In the root of the project
+```shell
+$ npm start
+```
+
+If a tab doesn't open with the perfect-website app running, open a new tab and type in http://localhost:3000 in the url bar and press enter.
 
 ## <a name="Improvements">Improvements</a>

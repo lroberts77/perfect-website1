@@ -27,7 +27,7 @@ export default function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        PERFECT <i class="fas fa-meteor"></i>
+                        SLOUGH SCORPIONS <i class="fas fa-basketball-ball"></i>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -40,17 +40,17 @@ export default function Navbar() {
                         </li>
                         <li className="nav-item">
                             <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-                                SERVICES
+                                SEASON STANDINGS
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
-                                PRODUCTS
+                                GALLERY
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-                                SIGN UP
+                                CONTACT
                             </Link>
                         </li>
                     </ul>
